@@ -55,5 +55,5 @@ function getStories(){
     })
 }
 
-get
+getStories
 
