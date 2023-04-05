@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded',getStories())
 function getStories(){
     fetch('https://binaryjazz.us/wp-json/genrenator/v1/story/200')
     .then(res=>res.json())
@@ -19,7 +20,6 @@ function getStories(){
         return story
         }
   
-
         likeButton.addEventListener('click', likingButton() )
         likingButton()
        
@@ -40,20 +40,14 @@ function getStories(){
             e.preventDefault()
              const text=form.querySelector('#text').value
             
-            console.log(text)
-            
-           })                
-        }
+            console.log(text)})                
+                                 } 
              resonatingButton()
-            anotherStory.addEventListener('click',()=>document.location.reload()  )
-            
-    
+            anotherStory.addEventListener('click',()=>document.location.reload())
         }
-        
-    )
-        
+    )     
     })
 }
 
-getStories
+getStories()
 
