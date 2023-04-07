@@ -1,13 +1,30 @@
 body {
-    background: palegreen;
+    background: rgb(246, 238, 238);
 }
 
 #prologue {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style:italic;
+    text-align: center;
+    color:burlywood;
+    
+    
 
 }
 
-   img {
-    height: 350px;
-   }
+*{
+    margin: 0;
+    padding:0;
+}
+#image{
+    background-image:url('https://media.istockphoto.com/id/1286873873/photo/a-womans-hand-holds-a-paper-notebook-through-a-hole-in-a-white-wall.jpg?s=612x612&w=0&k=20&c=mgRiv6ji6heR3SC87faf_MLE0l38wQIDj34XtlvEwA0=');
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 100vh;
+
+}
+
+#img1{
+margin-top: 138px;
+margin-left: 344px;
+}

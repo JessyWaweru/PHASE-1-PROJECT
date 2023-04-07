@@ -1,3 +1,6 @@
+
+
+
 document.addEventListener('DOMContentLoaded',getStories())
 function getStories(){
     fetch('https://binaryjazz.us/wp-json/genrenator/v1/story/200')
@@ -50,4 +53,5 @@ function getStories(){
 }
 
 getStories()
+
 
