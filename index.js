@@ -43,7 +43,7 @@ function getStories(){
             e.preventDefault()
              const text=form.querySelector('#text').value
             
-            console.log(text)})                
+            return text})                
                                  } 
              resonatingButton()
             anotherStory.addEventListener('click',()=>document.location.reload())
